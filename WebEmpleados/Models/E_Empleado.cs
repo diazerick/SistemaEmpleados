@@ -13,6 +13,7 @@ namespace WebEmpleados.Models
         public string Nombre { get; set; }
         public string ApellidoPaterno { get; set; }
         public string ApellidoMaterno { get; set; }
+        public string CURP { get; set; }
         public decimal Sueldo { get; set; }
         public DateTime FechaNacimiento { get; set; }
         public bool TiempoCompleto { get; set; }
@@ -23,7 +24,7 @@ namespace WebEmpleados.Models
             get
             {
                 if (TiempoCompleto == true)
-                    return "Si";
+                    return "SI";
                 else
                     return "No";
             }
