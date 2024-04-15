@@ -11,6 +11,8 @@ namespace WebEmpleados.Models
         //Propiedades simples
         public int IdEmpleado { get; set; }
         public string Nombre { get; set; }
+        public string ApellidoPaterno { get; set; }
+        public string ApellidoMaterno { get; set; }
         public decimal Sueldo { get; set; }
         public DateTime FechaNacimiento { get; set; }
         public bool TiempoCompleto { get; set; }
