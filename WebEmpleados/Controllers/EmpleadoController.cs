@@ -12,7 +12,7 @@ namespace WebEmpleados.Controllers
 {
     public class EmpleadoController : Controller
     {
-        // GET: Empleado
+        //Esto es un comentario
         public ActionResult Index()
         {
             //Creamos la lista vacia

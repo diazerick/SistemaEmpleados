@@ -17,7 +17,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Empleados</h1>
+        <h1>CRUD Empleados</h1>
 
         <a href="/Empleado/IrAgregar" class="btn btn-success mb-3">Nuevo Empleado</a>
 
@@ -29,7 +29,7 @@
             </div>
         }
 
-        <table class="table table-bordered table-striped table-primary">
+        <table class="table table-bordered table-striped table-warning">
             <thead>
                 <tr>
                     <th>ID</th>
@@ -52,7 +52,7 @@
                         <td>@empleado.TiempoCompletoDescripcion</td>
                         <td>@empleado.Edad</td>
                         <td>
-                            <a href="/Empleado/ObtenerParaEditar?idEmpleado=@empleado.IdEmpleado" class="btn btn-info">Editar</a>
+                            <a href="/Empleado/ObtenerParaEditar?idEmpleado=@empleado.IdEmpleado" class="btn btn-danger">Editar</a>
                         </td>
                     </tr>
                 }
